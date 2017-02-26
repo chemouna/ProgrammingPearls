@@ -39,10 +39,8 @@ public class CrackingTheOyster {
         Scanner scan = createInputScanner();
         if (scan == null) return;
 
-        //set bits to true
-        while (scan.hasNextInt()) {
-            bits.set(scan.nextInt(), true);
-        }
+        fillOrderedBitVector(bits, scan);
+        //fillRandomBitVector(bits, scan);
 
         scan.close();
 
@@ -57,6 +55,25 @@ public class CrackingTheOyster {
             writer.close();
         } catch (final FileNotFoundException fnfex) {
             Logger.getLogger(CrackingTheOyster.class.getName()).log(Level.SEVERE, null, fnfex);
+        }
+    }
+
+    private void fillOrderedBitVector(BitSet bits, Scanner scan) {
+        //set bits to true
+        while (scan.hasNextInt()) {
+            final int val = scan.nextInt();
+            bits.set(val, true);
+        }
+    }
+
+    //Solution to 4/
+    private void fillRandomBitVector(BitSet bits, Scanner scan) {
+        Random random = new Random();
+        //set bits to true
+        while (scan.hasNextInt()) {
+            final int val = scan.nextInt();
+            //bits.set(val, true);
+            bits.set(random.nextInt(maxInt - val + 1) + val, true);
         }
     }
 
@@ -78,7 +95,6 @@ public class CrackingTheOyster {
         }
 
         final int[] integers = new int[this.maxInt];
-
         for (int i = 0; i < integers.length; i++) {
             integers[i] = i;
         }
@@ -87,8 +103,8 @@ public class CrackingTheOyster {
         final int maxValueLength = String.valueOf(maxInt - 1).length();
         try {
             try (final PrintWriter writer = new PrintWriter(inputPath)) {
-                for (int i = 0; i < integers.length; i++) {
-                    writer.println(formatInteger(integers[i], maxValueLength));
+                for (int integer : integers) {
+                    writer.println(formatInteger(integer, maxValueLength));
                 }
                 writer.flush();
                 writer.close();
@@ -98,7 +114,18 @@ public class CrackingTheOyster {
         }
     }
 
-    public static void shuffle(int[] integerArray) {
+    private int[] generateRandomIntegers() {
+        final int[] integers = new int[this.maxInt];
+
+        Random random = new Random();
+
+        for (int i = 0; i < integers.length; i++) {
+            integers[i] = random.nextInt(this.maxInt) + 1;
+        }
+        return integers;
+    }
+
+    private static void shuffle(int[] integerArray) {
         final Random rand = ThreadLocalRandom.current();
         for (int i = integerArray.length - 1; i > 0; i--) {
             int index = rand.nextInt(i + 1);
@@ -108,7 +135,7 @@ public class CrackingTheOyster {
         }
     }
 
-    public static String formatInteger(final int i, final int length) {
+    private static String formatInteger(final int i, final int length) {
         String result = String.valueOf(i);
         while (result.length() != length) {
             result = "0" + result;
