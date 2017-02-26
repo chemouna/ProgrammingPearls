@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28829664-8c53-478c-a5ea-bb0b57a615f1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="OUTPUT_CRACKING_OYSTER" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/crackingOyster/OUTPUT_CRACKING_OYSTER">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../AndroidTools" value="8703580905000" />
+        <entry key="$PROJECT_DIR$/../../BetterEspresso" value="4363209524000" />
+        <entry key="$PROJECT_DIR$/../../Dagger2Playground" value="2971809870000" />
+        <entry key="$PROJECT_DIR$/../../ExtendedEspresso" value="4363209524000" />
+        <entry key="$PROJECT_DIR$/../../FastApp" value="10182016840000" />
+        <entry key="$PROJECT_DIR$/../../FlowCsvPublish" value="4352087463000" />
+        <entry key="$PROJECT_DIR$/../../GradleGroovyPlayground" value="5807528916000" />
+        <entry key="$PROJECT_DIR$/../../JsonGenerator" value="5822460053000" />
+        <entry key="$PROJECT_DIR$/../../Project3" value="2954643395000" />
+        <entry key="$PROJECT_DIR$/../../RxJavaExtensions" value="2903024234000" />
+        <entry key="$PROJECT_DIR$/../../RxProblemSolvingExamples" value="2903026716000" />
+        <entry key="$PROJECT_DIR$/../../alias" value="11611594471000" />
+        <entry key="$PROJECT_DIR$/../../android-release-plugin" value="4376437417000" />
+        <entry key="$PROJECT_DIR$/../../capture" value="7315569985000" />
+        <entry key="$PROJECT_DIR$/../../frame-gradle-plugin" value="8766672932000" />
+        <entry key="$PROJECT_DIR$/../../frame-gradle-plugin2" value="8810670482000" />
+        <entry key="$PROJECT_DIR$/../../gradle-play-publish" value="8728893868000" />
+        <entry key="$PROJECT_DIR$/../../legotrico" value="5893755864000" />
+        <entry key="$PROJECT_DIR$/../../native_goblob" value="13310867840000" />
+        <entry key="$PROJECT_DIR$/../../release-plugin" value="1473435963000" />
+        <entry key="$PROJECT_DIR$/../../../others/Nearby" value="7276888470000" />
+        <entry key="$PROJECT_DIR$/../../../others/ScreenshotsNanny" value="7252776445000" />
+        <entry key="$PROJECT_DIR$/../../../others/android-jsonparcels" value="1455611369000" />
+        <entry key="$PROJECT_DIR$/../../../others/android-repos/RxJava" value="2972523498000" />
+        <entry key="$PROJECT_DIR$/../../../others/android-repos/phraseapp-gradle-plugin" value="2961191868000" />
+        <entry key="$PROJECT_DIR$/../../../others/android-repos/picasso" value="4437582120000" />
+        <entry key="$PROJECT_DIR$/../../../others/gradle" value="96272082730000" />
+        <entry key="$PROJECT_DIR$/../../../others/gradle-android-command-plugin" value="8706881202000" />
+        <entry key="$PROJECT_DIR$/../../../others/gradle-bowerdeps-plugin" value="2911223148000" />
+        <entry key="$PROJECT_DIR$/../../../others/gradle-hockeyapp-plugin" value="2917673504000" />
+        <entry key="$PROJECT_DIR$/../../../others/gradle-jazz-plugin" value="2917335960000" />
+        <entry key="$PROJECT_DIR$/../../../others/gradle-play-publisher" value="2900540170000" />
+        <entry key="$PROJECT_DIR$/../../../others/java-repos/Hystrix" value="25048194808000" />
+        <entry key="$PROJECT_DIR$/../../../others/spoon-copy" value="7260487885000" />
+        <entry key="$PROJECT_DIR$/../../../others/spoon-gradle-plugin" value="1451661121000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/android-screenshots" value="4366599129000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/another-app-screenshot-branch-v3" value="8705313825000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/another-for-screenshots-from-m" value="11617419754000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/app-android-v3" value="7252528267000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/app-screenshot-branch-v3" value="13096406838000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/forth-app-android-v3" value="8886802837000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/gradle-screenshots-plugin" value="4366599129000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/third-app-android-v3" value="13113946944000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/toggle-app-android-v3" value="10379931662000" />
+        <entry key="$PROJECT_DIR$/../../../space/products/tripsearch" value="1475845867000" />
+        <entry key="$USER_HOME$/Downloads/LoginModule" value="2970085144000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/mounacheikhna/pearls/ColumnBase.java" />
+        <option value="$PROJECT_DIR$/src/com/mounacheikhna/pearls/Pearls.java" />
+        <option value="$PROJECT_DIR$/src/com/mounacheikhna/pearls/CrackingTheOyster.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaProgrammingPearls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaProgrammingPearls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaProgrammingPearls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaProgrammingPearls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pearls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaProgrammingPearls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaProgrammingPearls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crackingOyster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RunManager" selected="Application.Pearls">
+    <configuration default="false" name="Pearls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mounacheikhna.pearls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mounacheikhna.pearls.Pearls" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaProgrammingPearls" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CabalRunConfiguration" factoryName="Haskell">
+      <module name="" />
+      <setting name="executableName" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <environmetVariables />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaProgrammingPearls" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Pearls" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Pearls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28829664-8c53-478c-a5ea-bb0b57a615f1" name="Default" comment="" />
+      <created>1488069292825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488069292825</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/BitSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="199" column="5" lean-forward="true" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
+          <folding>
+            <marker date="1444172132000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1444172132000" expanded="false" signature="244:411" ph="..." />
+            <marker date="1444172132000" expanded="true" signature="413:1627" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="2249:2507" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="2645:2723" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="2755:2829" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="2877:3029" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="3226:3296" ph="/**...*/" />
+            <marker date="1444172132000" expanded="false" signature="3343:3354" ph=" { " />
+            <marker date="1444172132000" expanded="false" signature="3395:3401" ph=" }" />
+            <marker date="1444172132000" expanded="true" signature="3407:3477" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="3513:3716" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="3722:3952" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="3994:4223" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="4229:4308" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="4329:4400" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="4406:4778" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="4808:5016" ph="{...}" />
+            <marker date="1444172132000" expanded="false" signature="5055:5066" ph=" { " />
+            <marker date="1444172132000" expanded="false" signature="5107:5113" ph=" }" />
+            <marker date="1444172132000" expanded="true" signature="5119:5256" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="5290:5392" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="5398:6032" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="6080:6232" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="6238:7019" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="7068:7289" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="7295:7926" ph="/**...*/" />
+            <marker date="1444172132000" expanded="false" signature="7973:7984" ph=" { " />
+            <marker date="1444172132000" expanded="false" signature="8030:8036" ph=" }" />
+            <marker date="1444172132000" expanded="true" signature="8042:8819" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="8868:9349" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="9355:9841" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="9874:10369" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="10375:10867" ph="/**...*/" />
+            <marker date="1444172132000" expanded="false" signature="10899:10910" ph=" { " />
+            <marker date="1444172132000" expanded="false" signature="10950:10956" ph=" }" />
+            <marker date="1444172132000" expanded="true" signature="10962:11095" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="11147:11426" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="11432:11732" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="11774:11957" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="11963:12048" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="12112:12511" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="12517:12773" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="12809:13103" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="13109:13616" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="13666:14607" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="14183:14241" ph="//..." />
+            <marker date="1444172132000" expanded="true" signature="14613:14825" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="14860:15144" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="15150:15410" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="15460:15555" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="15561:16042" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="16091:17062" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="16650:16708" ph="//..." />
+            <marker date="1444172132000" expanded="true" signature="17068:17611" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="17675:17790" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="17796:18032" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="18069:18392" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="18398:18888" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="18939:20030" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="19613:19671" ph="//..." />
+            <marker date="1444172132000" expanded="true" signature="20036:20133" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="20158:20233" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="20239:20667" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="20705:20991" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="20997:21565" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="21616:23084" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="23090:23925" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="23967:24489" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="24495:24857" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="24901:25557" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="24911:25003" ph="//..." />
+            <marker date="1444172132000" expanded="true" signature="25563:26386" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="26432:27056" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="27062:27627" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="27675:28297" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="28303:28589" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="28614:28803" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="28809:29014" ph="/**...*/" />
+            <marker date="1444172132000" expanded="false" signature="29043:29054" ph=" { " />
+            <marker date="1444172132000" expanded="false" signature="29077:29083" ph=" }" />
+            <marker date="1444172132000" expanded="true" signature="29089:29445" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="29488:29670" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="29676:29868" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="29898:30035" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="30041:30420" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="30453:30782" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="30788:31150" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="31182:31899" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="31905:32482" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="32515:33174" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="33180:33433" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="33469:33707" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="33713:34351" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="34378:34528" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="34534:34791" ph="/**...*/" />
+            <marker date="1444172132000" expanded="false" signature="34813:34824" ph=" { " />
+            <marker date="1444172132000" expanded="false" signature="34860:34866" ph=" }" />
+            <marker date="1444172132000" expanded="true" signature="34872:35513" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="35552:36023" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="36029:36328" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="36355:36689" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="36695:36925" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="36956:37100" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="37106:37211" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="37290:37501" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="37507:37611" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="37712:38170" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="37835:37982" ph="//..." />
+            <marker date="1444172132000" expanded="true" signature="38176:39077" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="39107:39734" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="39740:40340" ph="/**...*/" />
+            <marker date="1444172132000" expanded="true" signature="40371:41335" ph="{...}" />
+            <marker date="1444172132000" expanded="true" signature="40437:40917" ph="{...}" />
+            <marker date="1444172132000" expanded="false" signature="40536:40555" ph=" { " />
+            <marker date="1444172132000" expanded="false" signature="40573:40587" ph=" }" />
+            <marker date="1444172132000" expanded="true" signature="40644:40907" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/pearls/ColumnBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/pearls/CrackingTheOyster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1488071843000" expanded="true" signature="42:337" ph="..." />
+            <marker date="1488071843000" expanded="true" signature="339:386" ph="/**...*/" />
+            <marker date="1488071843000" expanded="true" signature="670:788" ph="{...}" />
+            <marker date="1488071843000" expanded="true" signature="814:1717" ph="{...}" />
+            <marker date="1488071843000" expanded="true" signature="1760:2049" ph="{...}" />
+            <marker date="1488071843000" expanded="true" signature="2076:2880" ph="{...}" />
+            <marker date="1488071843000" expanded="true" signature="2933:3237" ph="{...}" />
+            <marker date="1488071843000" expanded="true" signature="3309:3471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/pearls/Pearls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1488071790000" expanded="true" signature="35:82" ph="/**...*/" />
+            <marker date="1488071790000" expanded="true" signature="149:494" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/crackingOyster/INPUT_CRACKING_OYSTER">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/crackingOyster/OUTPUT_CRACKING_OYSTER">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
