@@ -8,50 +8,47 @@ import com.mounacheikhna.pearls.StopWatch.StopWatchException;
  */
 public class Col7SubVectors {
 
-    private final String output = "Max sum of sub vector.length %s = %d with algorithm %s";
-    private int subVectorEndIndex;
-
-    public Col7SubVectors() {
+    Col7SubVectors() {
     }
 
-    public void runDivideAndConquer(int[] vector) {
+    private void runDivideAndConquer(int[] vector) {
+        run(vector, "maxSumByDivideAndConquer",
+            maxSumByDivideAndConquer(vector, 0, vector.length - 1));
+    }
+
+    private void runScanMaxSoFar(int[] vector)
+        throws StopWatchException, SubArrayNotFoundException {
+        run(vector, "runScanMaxSoFar", maxSumByScanning(vector));
+    }
+
+    private void run(int[] vector, String name, int result) {
         try {
             StopWatch.start();
-            final int r = divideAndConquer(vector, 0, vector.length - 1);
-            final String inf = String.format("divideAndConquer runtime=%d ns", StopWatch.stopNS());
-            System.out.println(String.format(output, vector.length, r, inf));
-        } catch (final StopWatchException ex) {
+            final String inf = String.format(name + " runtime=%d ns", StopWatch.stopNS());
+            String output = "Max sum of sub vector.length %s = %d with algorithm %s";
+            System.out.println(String.format(output, vector.length, result, inf));
+        } catch (final Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
-    public void runScanMaxSoFar(int[] vector) throws StopWatchException {
-        try {
-            StopWatch.start();
-            final int r = scanMaxSoFarMethod(vector);
-            final String inf = String.format("runScanMaxSoFar runtime=%d ns", StopWatch.stopNS());
-            System.out.println(String.format(output, vector.length, r, inf));
-        } catch (final StopWatchException | SubArrayNotFoundException ex) {
-            System.out.println(ex.getMessage());
-        }
-    }
+    int maxSumByScanning(int[] vector) throws SubArrayNotFoundException {
+        int maxSoFar = 0, maxEndingHere = 0, tempMax = 0, endIndex = 0;
 
-    int scanMaxSoFarMethod(int[] vector) throws SubArrayNotFoundException {
-        // integer eI = end index of sub vector in vector, sI = start index.
-        int maxSoFar = 0, maxEndingHere = 0, tempMax = 0, eI = 0;
-
-        for (int i = 0; i < vector.length; i++) {
+        for (int i = 1; i < vector.length; i++) {
+            //Invariant: MaxEndingHere and maxSoFar are accurate for X[1..i-1]
             maxEndingHere = ArraysUtils.max(maxEndingHere + vector[i], 0);
             tempMax = ArraysUtils.max(maxSoFar, maxEndingHere);
-            eI = tempMax > maxSoFar ? i : eI;
-            maxSoFar = tempMax > maxSoFar ? tempMax : maxSoFar;
+            endIndex = tempMax > maxSoFar ? i : endIndex;
+            maxSoFar = Math.max(tempMax, maxSoFar);
         }
 
-        this.subVectorEndIndex = eI;
-        return ArraysUtils.arraySum(ArraysUtils.getSubArray(maxSoFar, vector, eI));
+        //why ?
+        final int[] arrays = ArraysUtils.getSubArray(maxSoFar, vector, endIndex);
+        return ArraysUtils.arraySum(arrays);
     }
 
-    int divideAndConquer(int[] vector, final int l, final int u) {
+    private int maxSumByDivideAndConquer(int[] vector, final int l, final int u) {
         int leftMax = 0, rightMax = 0, sum = 0;
 
         if (l > u || vector == null) return 0; // Empty array.
@@ -72,8 +69,12 @@ public class Col7SubVectors {
             rightMax = ArraysUtils.max(rightMax, sum);
         }
 
-        return ArraysUtils.max(leftMax + rightMax, divideAndConquer(vector, l, m),
-            divideAndConquer(vector, m + 1, u));
+        return ArraysUtils.max(leftMax + rightMax, maxSumByDivideAndConquer(vector, l, m),
+            maxSumByDivideAndConquer(vector, m + 1, u));
+    }
+
+    int maxSumByDivideAndConquer(int[] vector) {
+        return maxSumByDivideAndConquer(vector, 0, vector.length - 1);
     }
 
     public static void main(String[] args) {
@@ -93,12 +94,8 @@ public class Col7SubVectors {
             };
             subVectors.runDivideAndConquer(v2);
             subVectors.runScanMaxSoFar(v2);
-        } catch (StopWatchException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    int divideAndConquer(int[] vector) {
-        return divideAndConquer(vector, 0, vector.length - 1);
     }
 }
