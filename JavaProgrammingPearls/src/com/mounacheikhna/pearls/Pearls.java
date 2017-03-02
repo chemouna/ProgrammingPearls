@@ -9,7 +9,7 @@ public class Pearls {
 
         final int arraySizeToSort = 1000000;
         final String inf = "bit map sort for integer array of %d entries completed in %d ns";
-        final Column1 oyster = new Column1(arraySizeToSort);
+        final Col1CrackingTheOyster oyster = new Col1CrackingTheOyster(arraySizeToSort);
         System.out.println("Programming Pearls COLUMN 1 : bit map sort for integer array");
         oyster.solve();
 

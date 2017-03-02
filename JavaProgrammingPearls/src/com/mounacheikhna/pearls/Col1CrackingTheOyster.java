@@ -14,14 +14,14 @@ import java.util.logging.Logger;
 /**
  * Created by m.cheikhna on 26/02/2017.
  */
-public class Column1 {
+public class Col1CrackingTheOyster {
 
     private final int maxInt;
 
     private final String inputPath = "resources/crackingOyster/INPUT_CRACKING_OYSTER";
     private final String outputPath = "resources/crackingOyster/OUTPUT_CRACKING_OYSTER";
 
-    public Column1(int maxInt) {
+    public Col1CrackingTheOyster(int maxInt) {
         this.maxInt = maxInt;
         if (!new File(inputPath).exists()) {
             this.setup();
@@ -54,7 +54,7 @@ public class Column1 {
             writer.flush();
             writer.close();
         } catch (final FileNotFoundException fnfex) {
-            Logger.getLogger(Column1.class.getName()).log(Level.SEVERE, null, fnfex);
+            Logger.getLogger(Col1CrackingTheOyster.class.getName()).log(Level.SEVERE, null, fnfex);
         }
     }
 
@@ -82,7 +82,7 @@ public class Column1 {
         try {
             scan = new Scanner(new File(this.inputPath));
         } catch (final FileNotFoundException fnfex) {
-            Logger.getLogger(Column1.class.getName()).log(Level.SEVERE, null, fnfex);
+            Logger.getLogger(Col1CrackingTheOyster.class.getName()).log(Level.SEVERE, null, fnfex);
         }
         return scan;
     }
