@@ -12,14 +12,21 @@ public class Col7SubVectorsTest {
     public void emptyVectorDivideAndConquerTest() throws Exception {
         final int[] vector = {};
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.divideAndConquer(vector), 0);
+        Assert.assertEquals(subVectors.maxSumByDivideAndConquer(vector), 0);
+    }
+
+    @Test
+    public void oneVectorDivideAndConquerTest() throws Exception {
+        final int[] vector = {5};
+        Col7SubVectors subVectors = new Col7SubVectors();
+        Assert.assertEquals(subVectors.maxSumByDivideAndConquer(vector), 5);
     }
 
     @Test
     public void onlyNegativesVectorDivideAndConquerTest() throws Exception {
         final int[] vector = {-4, -1, -2, -9};
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.divideAndConquer(vector), 0);
+        Assert.assertEquals(subVectors.maxSumByDivideAndConquer(vector), 0);
     }
 
     @Test
@@ -28,7 +35,7 @@ public class Col7SubVectorsTest {
             31, -41, 59, 26, -53, 58, 97, -93, -23, 84
         };
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.divideAndConquer(vector), 187);
+        Assert.assertEquals(subVectors.maxSumByDivideAndConquer(vector), 187);
     }
 
     @Test
@@ -40,21 +47,28 @@ public class Col7SubVectorsTest {
             300, 400, -543, 5, 54, -43, 0, 43
         };
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.divideAndConquer(vector), 900);
+        Assert.assertEquals(subVectors.maxSumByDivideAndConquer(vector), 900);
     }
 
     @Test
     public void emptyVectorScanSoFarTest() throws Exception {
         final int[] vector = {};
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.scanMaxSoFarMethod(vector), 0);
+        Assert.assertEquals(subVectors.maxSumByScanning(vector), 0);
+    }
+
+    @Test
+    public void oneElementVectorScanSoFarTest() throws Exception {
+        final int[] vector = {5};
+        Col7SubVectors subVectors = new Col7SubVectors();
+        Assert.assertEquals(subVectors.maxSumByScanning(vector), 5);
     }
 
     @Test
     public void onlyNegativesVectorScanSoFarTest() throws Exception {
         final int[] vector = {-4, -1, -2, -9};
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.scanMaxSoFarMethod(vector), 0);
+        Assert.assertEquals(subVectors.maxSumByScanning(vector), 0);
     }
 
     @Test
@@ -63,7 +77,7 @@ public class Col7SubVectorsTest {
             31, -41, 59, 26, -53, 58, 97, -93, -23, 84
         };
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.scanMaxSoFarMethod(vector), 187);
+        Assert.assertEquals(subVectors.maxSumByScanning(vector), 187);
     }
 
     @Test
@@ -75,7 +89,7 @@ public class Col7SubVectorsTest {
             300, 400, -543, 5, 54, -43, 0, 43
         };
         Col7SubVectors subVectors = new Col7SubVectors();
-        Assert.assertEquals(subVectors.scanMaxSoFarMethod(vector), 900);
+        Assert.assertEquals(subVectors.maxSumByScanning(vector), 900);
     }
 
 }
