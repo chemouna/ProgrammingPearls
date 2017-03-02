@@ -35,6 +35,7 @@ public class Col7SubVectors {
     int maxSumByScanning(int[] vector) throws SubArrayNotFoundException {
         int maxSoFar = 0, maxEndingHere = 0;
 
+        //this looks a lot like a fold -> is there any relation ?
         for (int value : vector) {
             //Invariant: MaxEndingHere and maxSoFar are accurate for X[1..i-1]
             maxEndingHere = ArraysUtils.max(maxEndingHere + value, 0);
