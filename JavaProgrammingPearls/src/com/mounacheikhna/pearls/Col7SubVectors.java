@@ -33,19 +33,15 @@ public class Col7SubVectors {
     }
 
     int maxSumByScanning(int[] vector) throws SubArrayNotFoundException {
-        int maxSoFar = 0, maxEndingHere = 0, tempMax = 0, endIndex = 0;
+        int maxSoFar = 0, maxEndingHere = 0;
 
-        for (int i = 1; i < vector.length; i++) {
+        for (int value : vector) {
             //Invariant: MaxEndingHere and maxSoFar are accurate for X[1..i-1]
-            maxEndingHere = ArraysUtils.max(maxEndingHere + vector[i], 0);
-            tempMax = ArraysUtils.max(maxSoFar, maxEndingHere);
-            endIndex = tempMax > maxSoFar ? i : endIndex;
-            maxSoFar = Math.max(tempMax, maxSoFar);
+            maxEndingHere = ArraysUtils.max(maxEndingHere + value, 0);
+            maxSoFar = Math.max(maxEndingHere, maxSoFar);
         }
 
-        //why ?
-        final int[] arrays = ArraysUtils.getSubArray(maxSoFar, vector, endIndex);
-        return ArraysUtils.arraySum(arrays);
+        return maxSoFar;
     }
 
     private int maxSumByDivideAndConquer(int[] vector, final int l, final int u) {
