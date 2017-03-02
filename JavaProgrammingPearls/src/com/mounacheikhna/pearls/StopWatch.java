@@ -27,6 +27,6 @@ public class StopWatch {
         return (System.nanoTime() - StopWatch.startT);
     }
 
-    public static class StopWatchException extends Throwable {
+    public static class StopWatchException extends Exception {
     }
 }

@@ -28,7 +28,7 @@ public class Col7SubVectors {
     public void runScanMaxSoFar(int[] vector) throws StopWatchException {
         try {
             StopWatch.start();
-            final int r = ArraysUtils.arraySum(scanMaxSoFar(vector));
+            final int r = scanMaxSoFarMethod(vector);
             final String inf = String.format("runScanMaxSoFar runtime=%d ns", StopWatch.stopNS());
             System.out.println(String.format(output, vector.length, r, inf));
         } catch (final StopWatchException | SubArrayNotFoundException ex) {
@@ -36,7 +36,7 @@ public class Col7SubVectors {
         }
     }
 
-    public int[] scanMaxSoFar(int[] vector) throws SubArrayNotFoundException {
+    int scanMaxSoFarMethod(int[] vector) throws SubArrayNotFoundException {
         // integer eI = end index of sub vector in vector, sI = start index.
         int maxSoFar = 0, maxEndingHere = 0, tempMax = 0, eI = 0;
 
@@ -48,7 +48,7 @@ public class Col7SubVectors {
         }
 
         this.subVectorEndIndex = eI;
-        return ArraysUtils.getSubArray(maxSoFar, vector, eI);
+        return ArraysUtils.arraySum(ArraysUtils.getSubArray(maxSoFar, vector, eI));
     }
 
     int divideAndConquer(int[] vector, final int l, final int u) {
